@@ -36,7 +36,7 @@ const variants = cva(
           "bg-primary text-background hover:bg-primary/80 shadow-[0px_1px_0px_1px_rgba(255,_255,_255,_0.03)_inset,_0px_0px_0px_1px_rgba(0,_0,_0,_0.10),_0px_1px_3px_0px_rgba(0,_0,_0,_0.06)] dark:shadow-[0px_1px_0px_0px_rgba(255,_255,_255,_0.10)_inset,_0px_0px_0px_1px_rgba(0,_0,_0,_0.25]",
         accent:
           "bg-cyan-500 text-white hover:bg-cyan-600 data-[state=pressed]:bg-cyan-700 data-[state=open]:bg-cyan-700 shadow-[0px_1px_0px_1px_rgba(255,_255,_255,_0.03)_inset,_0px_0px_0px_1px_rgba(0,_0,_0,_0.10),_0px_1px_3px_0px_rgba(0,_0,_0,_0.06)] dark:shadow-[0px_1px_0px_0px_rgba(255,_255,_255,_0.10)_inset,_0px_0px_0px_1px_rgba(0,_0,_0,_0.25]",
-        ghost: "hover:bg-accent hover:text-accent-foreground",
+        ghost: "hover:bg-gray-50 hover:text-primary",
         link: "text-primary underline-offset-4 hover:underline",
       },
       size: {

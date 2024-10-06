@@ -18,6 +18,12 @@
     "file": "components/button.tsx"
   },
   {
+    "name": "Collapsible",
+    "id": "collapsible",
+    "dependencies": ["@radix-ui/react-collapsible"],
+    "file": "components/collapsible.tsx"
+  },
+  {
     "name": "Dropdown Menu",
     "id": "dropdown-menu",
     "dependencies": ["@radix-ui/react-dropdown-menu"],
