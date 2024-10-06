@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  
+  --gray-1: hsl(0, 0%, 99%);
+  --gray-2: hsl(0, 0%, 98%);
+  --gray-3: hsl(0, 0%, 94%);
+  --gray-4: hsl(0, 0%, 91%);
+  --gray-5: hsl(0, 0%, 88%);
+  --gray-6: hsl(0, 0%, 85%);
+  --gray-7: hsl(0, 0%, 81%);
+  --gray-8: hsl(0, 0%, 73%);
+  --gray-9: hsl(0, 0%, 55%);
+  --gray-10: hsl(0, 0%, 51%);
+  --gray-11: hsl(0, 0%, 39%);
+  --gray-12: hsl(0, 0%, 13%); 
+
+  --gray-inverted: hsl(0, 0%, 93%);
+
+  --border: hsla(0, 0%, 13%, 0.1);
+  --border-secondary: hsla(0, 0%, 13%, 0.06);
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;  
+
+  color-scheme: light dark;
+  color: var(--gray-12);
+  background-color: var(--gray-1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dark {
+	--gray-1: hsl(0, 0%, 7%);
+	--gray-2: hsl(0, 0%, 10%);
+	--gray-3: hsl(0, 0%, 13%);
+	--gray-4: hsl(0, 0%, 16%);
+	--gray-5: hsl(0, 0%, 19%);
+	--gray-6: hsl(0, 0%, 23%);
+	--gray-7: hsl(0, 0%, 28%);
+	--gray-8: hsl(0, 0%, 38%);
+	--gray-9: hsl(0, 0%, 43%);
+	--gray-10: hsl(0, 0%, 48%);
+	--gray-11: hsl(0, 0%, 71%);
+	--gray-12: hsl(0, 0%, 93%);
+
+  --gray-inverted: hsl(0, 0%, 13%);
+
+  --border: hsla(0, 0%, 93%, 0.1);
+  --border-secondary: hsla(0, 0%, 93%, 0.06);
+
+}
+
+body {
+  margin: 0;  
+  min-width: 320px;
+  min-height: 100vh;
+}

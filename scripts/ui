@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ "$1" = "add" ]; then
+    node add-ui.js "$2"
+else
+    echo "Unknown command"
+fi

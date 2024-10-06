@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Init",
+    "id": "init",
+    "dependencies": ["tailwindcss-animate", "class-variance-authority", "clsx", "tailwind-merge", "@heroicons/react", "@radix-ui/react-slot"],
+    "file": "components/utils.ts"
+  },
+  {
+    "name": "Avatar",
+    "id": "avatar",
+    "dependencies": ["@radix-ui/react-avatar"],
+    "file": "components/avatar.tsx"
+  },  
+  {
+    "name": "Button",
+    "id": "button",
+    "dependencies": [],
+    "file": "components/button.tsx"
+  },
+  {
+    "name": "Dropdown Menu",
+    "id": "dropdown-menu",
+    "dependencies": ["@radix-ui/react-dropdown-menu"],
+    "file": "components/dropdown-menu.tsx"
+  },
+  {
+    "name": "Input",
+    "id": "input",
+    "dependencies": [],
+    "file": "components/input.tsx"
+  },
+  {
+    "name": "Label",
+    "id": "label",
+    "dependencies": ["@radix-ui/react-label"],
+    "file": "components/label.tsx"
+  },
+  {
+    "name": "Toggle",
+    "id": "toggle",
+    "dependencies": ["@radix-ui/react-toggle"],
+    "file": "components/toggle.tsx"
+  }
+]
